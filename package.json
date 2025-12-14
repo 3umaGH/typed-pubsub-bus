@@ -1,0 +1,21 @@
+{
+  "name": "typed-redis-bus",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node dist/index.js",
+    "build": "npx tsc",
+    "dev": "nodemon src/index.ts",
+    "test": "vitest"
+  },
+  "author": "3uma",
+  "license": "MIT",
+  "description": "",
+  "devDependencies": {
+    "vitest": "^4.0.15",
+    "@types/node": "^24.10.0",
+    "nodemon": "^3.1.10",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
