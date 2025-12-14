@@ -1,21 +1,41 @@
 {
   "name": "typed-pubsub-bus",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "A type-safe wrapper for pub/sub systems with TypeScript support",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "scripts": {
-    "start": "node dist/index.js",
     "build": "npx tsc",
     "dev": "nodemon src/index.ts",
+    "start": "node dist/index.js",
     "test": "vitest"
   },
+  "keywords": [
+    "typescript",
+    "pubsub",
+    "event-bus",
+    "type-safe",
+    "typed-events",
+    "redis",
+    "event-driven",
+    "async-events",
+    "event-management",
+    "message-bus"
+  ],
   "author": "3uma",
   "license": "MIT",
-  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/3umaGH/typed-pubsub-bus.git"
+  },
   "devDependencies": {
-    "vitest": "^4.0.15",
     "@types/node": "^24.10.0",
     "nodemon": "^3.1.10",
     "ts-node": "^10.9.2",
-    "typescript": "^5.9.3"
+    "typescript": "^5.9.3",
+    "vitest": "^4.0.15"
   }
 }
