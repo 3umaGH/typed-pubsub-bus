@@ -1,6 +1,6 @@
 {
   "name": "typed-pubsub-bus",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A type-safe wrapper for pub/sub systems with TypeScript support",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
